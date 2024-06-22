@@ -2,25 +2,12 @@
 @tailwind components;
 @tailwind utilities;
 
-body {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  font-family: Arial, sans-serif;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 100vh;
-  background-color: #18bdd3; 
-  font-family: Arial, Helvetica, sans-serif;
-  font-size: 18px;
-}
 
 .copy-button {
   display: inline-block;
   padding: 5px 10px;
   color: #fffefe;
-  background-color: #007BFF; 
+  background-color: #00ff15; 
   border: none;
   border-radius: 5px;
   cursor: pointer;
@@ -44,6 +31,14 @@ body {
   margin-top: 10px;
 }
 
+.container {
+  background-color: #b1a1c8; 
+  padding: 20px; 
+  border-radius: 10px; 
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+  color: white;
+}
+
 h1 {
   font-size: 24px;
   margin-bottom: 20px;
@@ -57,7 +52,28 @@ h1 {
 }
 
 .addressNumber {
-  color: #fffb00; 
+  color: #3b2c5e; 
+}
+
+.your-custom-class {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+}
+
+.your-custom-class button {
+  background-color: #28a745 !important; 
+  color: white !important;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 50px !important; 
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.your-custom-class button:hover {
+  background-color: #218838 !important; 
 }
 
 .input-group {
@@ -75,17 +91,17 @@ input {
 .primary-button {
   display: inline-block;
   padding: 10px 20px;
-  color: #ffffff;
-  background-color: #ffe600; 
+  color: #ffffff; /* White text color for good contrast */
+  background-color: #4b3c6e; /* Darker shade of purple */
   border: none;
-  border-radius: 5px;
+  border-radius: 5px; /* Slightly rounded corners */
   cursor: pointer;
   transition: background-color 0.3s ease;
   font-weight: 700;
 }
 
 .primary-button:hover {
-  background-color: #218838; 
+  background-color: #3b2c5e; 
 }
 
 .transaction {
